@@ -7,6 +7,10 @@ This repo is a **small, cleanly-layered** engine prototype:
 - **Math**: GLM
 - **Demo**: rotating cube + WASD/mouse free-fly camera + simple directional light
 
+### World Demo Screenshot
+
+![World Demo](GameEngine.png)
+
 ### Homebrew deps (Apple Silicon)
 
 ```bash
@@ -27,5 +31,4 @@ cmake --build build -j
 
 We vendor glad into `third_party/glad/` and keep a small script + notes in `scripts/`.
 See `scripts/generate_glad.md`.
-
 
